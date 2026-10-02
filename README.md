@@ -83,7 +83,7 @@ Allowed categories: `Food`, `Transport`, `Bills`, `Entertainment`, `Other`.
 
 ## GitHub repository
 
-[Add your GitHub repo link here]
+[https://github.com/Noahkh03/expenses_tracker]
 
 ## Notes
 
