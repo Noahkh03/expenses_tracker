@@ -1,0 +1,24 @@
+/* Small custom tweaks on top of Bootstrap defaults */
+
+body {
+  background-color: #f8f9fa;
+}
+
+#categoryChart {
+  max-height: 250px;
+}
+
+/* Bonus: dark mode - toggled by adding "dark-mode" class to <body> via app.js */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode .table {
+  color: #e0e0e0;
+}
