@@ -22,3 +22,16 @@ body.dark-mode .card {
 body.dark-mode .table {
   color: #e0e0e0;
 }
+
+/* Phase 3: CSS Grid for the summary cards */
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media (max-width: 576px) {
+  .summary-grid {
+    grid-template-columns: 1fr;
+  }
+}
